@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Analyze Sample</title>
+    <title>Analisa Gambar</title>
     <script src="/jquery.min.js"></script>
 </head>
 <body>
@@ -70,13 +70,13 @@
     };
 </script>
  
-<h1>Analyze image:</h1>
-Enter the URL to an image, then click the <strong>Analyze image</strong> button.
+<h1>Analisa Gambar Dengan Azure Computer Vision</h1>
+<br>
+<h3>Masukkan url gambar yang akan di Analisa.</h3>
+<br>
+<input type="text" name="inputImage" id="inputImage" value="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg"/>
 <br><br>
-Image to analyze:
-<input type="text" name="inputImage" id="inputImage"
-    value="http://upload.wikimedia.org/wikipedia/commons/3/3c/Shaki_waterfall.jpg" />
-<button onclick="processImage()">Analyze image</button>
+<button onclick="processImage()">Upload</button>
 <br><br>
 <div id="wrapper" style="width:1020px; display:table;">
     <div id="jsonOutput" style="width:600px; display:table-cell;">
